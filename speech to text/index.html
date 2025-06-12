@@ -192,11 +192,11 @@
 		}
 		cancel.onclick = function() {
 			recognizer.abort();
-			confd.innerHTML = "Cancled";
+			confd.innerHTML = "Cancelled";
 		}
 		// when the recognizing start
 		recognizer.onstart = function() {
-			confd.innerHTML = "Listing ...";
+			confd.innerHTML = "Lisetning ...";
 		}
 		recognizer.onspeechend = function() {
 			stop.click();
